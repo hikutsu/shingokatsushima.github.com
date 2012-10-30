@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://shingokatsushima.github.com/atom.xml" rel="self"/>
   <link href="http://shingokatsushima.github.com/"/>
-  <updated>2012-10-30T12:33:36+09:00</updated>
+  <updated>2012-10-30T12:44:41+09:00</updated>
   <id>http://shingokatsushima.github.com/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -18,7 +18,7 @@
     <link href="http://shingokatsushima.github.com/blog/2012/10/30/title/"/>
     <updated>2012-10-30T12:24:00+09:00</updated>
     <id>http://shingokatsushima.github.com/blog/2012/10/30/title</id>
-    <content type="html"><![CDATA[<p>h1. testtest</p>
+    <content type="html"><![CDATA[<h1>testtest</h1>
 
 <ul>
 <li>testetst</li>
@@ -27,12 +27,37 @@
 </ul>
 
 
-<p>h2. ああああ</p>
+<p>このようなコードブロックは、スペースやタブでインデントされていない文章(もしくは記事の最後)まで範囲となります。
+コードブロックの中ではアンバサンド記号(&amp;)やアングル記号(&lt;と>)は自動的にHTMLで表現されるような適切に変換されます。 このためMarkdownでHTMLソースそのものをホームページとしたい場合は、貼りつけてインデントすればいいだけとなります。 Markdownはアンバサンド記号(&amp;)やアングル記号(&lt;と>)のencodingによる不具合を自動的に回避します。
+例えば以下、</p>
 
-<p>h3. あああ</p>
+<h2>ああああ</h2>
 
-<p>| aaa | aaa | aaaa|
-| sss | ssss | aaaa |</p>
+<h3>あああ</h3>
+
+<table>
+<thead>
+<tr>
+<th>名前    </th>
+<th>   年齢</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fred    </td>
+<td>   29</td>
+</tr>
+<tr>
+<td>Jim     </td>
+<td>   47</td>
+</tr>
+<tr>
+<td>Harry   </td>
+<td>   32</td>
+</tr>
+</tbody>
+</table>
+
 ]]></content>
   </entry>
   
